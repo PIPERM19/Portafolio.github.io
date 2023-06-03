@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css\estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Felipe</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Momentos</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    
+    <section id="inicio" class="inicio">
+        <div class="contenido-baner">
+            <div class="contenedor-img">
+                <img src="img\img9.png" alt="">
+            </div>
+            <h1>Felipe Rangel</h1>
+            <h2>Ingeniero en Software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/felipe.rangelmurillo.77"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/felipe_9099/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Felipe Rangel. </span>Actualmente estoy estudiando en la Facultad de Informatica 
+                UAQ, la carrera de Ingenieria en Software y voy en segundo semestre. Estoy aprendiendo cosas nuevas
+                pero aunque mi nivel de skills no es tan alto, quiero un trabajo para que mi nivel de skills cresca y 
+                tambien para tener experiencia.
+            </p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            17/03/2002
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            415-109-8372
+                        </li>
+                        <li>
+                            <strong>Correo</strong>
+                            feliperangel909@gmail,com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            San Miguel de Allendde, Gto
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Ing. Software</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>EJERCICIO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUT-BOL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>PELICULAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Octave</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skill">
+                        <span>Lider de proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria en Software</h4>
+                        <span class="casa">Facultad de Informática UAQ</span>
+                        <span class="fecha">2022-Nose</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quia cumque 
+                            cum cupiditate quis maxime eligendi deleniti asperiores voluptates! Aperiam 
+                            quasi quae veniam dignissimos modi hic at unde odio aspernatur!
+                        </p>
+                    </div>
+                    <div class="item izq">
+                        <h4>Programacion</h4>
+                        <span class="casa">CBTIS No. 60</span>
+                        <span class="fecha">2015-2018</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quia cumque 
+                            cum cupiditate quis maxime eligendi deleniti asperiores voluptates! Aperiam 
+                            quasi quae veniam dignissimos modi hic at unde odio aspernatur!
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Desarrollador Front </h4>
+                        <span class="casa">UAQ</span>
+                        <span class="fecha">2022-Nose</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quia cumque 
+                            cum cupiditate quis maxime eligendi deleniti asperiores voluptates! Aperiam 
+                            quasi quae veniam dignissimos modi hic at unde odio aspernatur!
+                        </p>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollador Front </h4>
+                        <span class="casa">UAQ</span>
+                        <span class="fecha">2022-Nose</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quia cumque 
+                            cum cupiditate quis maxime eligendi deleniti asperiores voluptates! Aperiam 
+                            quasi quae veniam dignissimos modi hic at unde odio aspernatur!
+                        </p>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-section">
+            <h2>Momentos Chidos</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/img11.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Equipo Hackathon</h3>
+                        <p>Troyanos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img7.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Hackathon</h3>
+                        <p>Yo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Amigos</h3>
+                        <p>Conferencia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>El alucin</h3>
+                        <p>Amigo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Grupo 37</h3>
+                        <p>Amigos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Facheros</h3>
+                        <p>Amigos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre:">
+                    <input type="text" placeholder="Numero:">
+                    <input type="text" placeholder="Correo:">
+                    <input type="text" placeholder="Tema:">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-regular fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="img\img12.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                San Miguel de Allende, El corazón de México
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Llama: 415-109-8372
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Correo: feliperangel909@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/felipe.rangelmurillo.77"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/felipe_9099/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="JavaScript.js"></script>
+
+</body>
+</html>
